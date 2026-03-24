@@ -86,7 +86,7 @@ const ResearchHero = () => {
 
       </div>
       <div className="my-10">
-        <LogoMarquee bgColor="#022327" />
+        <LogoMarquee bgColor="#1e4444" />
       </div>
     </section>
   );

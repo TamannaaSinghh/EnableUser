@@ -13,6 +13,9 @@ const logos = [
   { src: "/websitelogos/alpha_alternatives.webp", alt: "Alpha Alternatives" },
   { src: "/websitelogos/guardian-capital.png", alt: "Guardian Capital" },
   { src: "/websitelogos/kairon-capital.png", alt: "Kairon Capital" },
+  { src: "/websitelogos/grey-sky-capital.png", alt: "Grey Sky Capital" },
+  { src: "/websitelogos/janak-merchant.png", alt: "Janak Merchant" },
+  
 ];
 
 const LogoMarquee = ({ bgColor = "#160026" }: { bgColor?: string }) => {
@@ -38,7 +41,7 @@ const LogoMarquee = ({ bgColor = "#160026" }: { bgColor?: string }) => {
                   alt={logo.alt}
                   width={100}
                   height={40}
-                  className="h-8 w-auto object-contain brightness-0 invert opacity-80 hover:opacity-100 transition-opacity duration-300"
+                  className="h-8 w-auto object-contain brightness-0 invert opacity-80 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-300"
                 />
               </div>
             ))}

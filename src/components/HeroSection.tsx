@@ -146,7 +146,7 @@ const HeroSection = () => {
 
       {/* Logo Marquee */}
       <div className="mt-10 mb-10">
-      <LogoMarquee />
+      <LogoMarquee bgColor="#3b1d5c" />
       </div>
     </section>
   );
